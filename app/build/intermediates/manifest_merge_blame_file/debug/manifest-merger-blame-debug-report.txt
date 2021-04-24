@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.rdev.catatanpenjualan"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:8:5-42:19
+14        android:allowBackup="false"
+14-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:9:9-36
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\INDRIAWAN\.gradle\caches\transforms-2\files-2.1\3f0e982339ff24e9e5cec28c56d30078\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:14:9-40
+23        android:usesCleartextTraffic="true" >
+23-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:15:9-44
+24        <activity
+24-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:17:9-25:20
+25            android:name="id.rdev.catatanpenjualan.activity._main.Splasschreen"
+25-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:18:13-56
+26            android:theme="@style/Theme.AppCompat.NoActionBar" >
+26-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:19:13-63
+27            <intent-filter>
+27-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:20:13-24:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:21:17-69
+28-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:21:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:23:17-77
+30-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:23:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="id.rdev.catatanpenjualan.activity.report.ReportActivity" />
+33-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:26:9-77
+33-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:26:19-65
+34        <activity
+34-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:27:9-28:72
+35            android:name="id.rdev.catatanpenjualan.activity.penjualan.PenjualanBarang"
+35-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:27:19-69
+36            android:parentActivityName="id.rdev.catatanpenjualan.activity._main.MainActivity" />
+36-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:28:13-70
+37        <activity
+37-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:29:9-30:72
+38            android:name="id.rdev.catatanpenjualan.activity.data_barang.DataBarangActivity"
+38-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:29:19-74
+39            android:parentActivityName="id.rdev.catatanpenjualan.activity._main.MainActivity" />
+39-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:30:13-70
+40        <activity android:name="id.rdev.catatanpenjualan.activity.register.RegisterActivity" />
+40-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:31:9-72
+40-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:31:19-69
+41        <activity android:name="id.rdev.catatanpenjualan.activity.data_barang._add.AddBarangActivity" />
+41-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:32:9-80
+41-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:32:19-78
+42        <activity android:name="id.rdev.catatanpenjualan.activity.login.LoginActivity" >
+42-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:33:9-40:20
+42-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:33:19-63
+43            <intent-filter>
+43-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:34:13-39:29
+44                <action android:name="android.intent.action.VIEW" />
+44-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:35:17-69
+44-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:35:25-66
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:21:17-69
+45-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:21:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:23:17-77
+47-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:23:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="id.rdev.catatanpenjualan.activity._main.MainActivity" />
+50-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:41:9-65
+50-->D:\KULIAH\SEMESTER 6\MOBILE DEVELOPMENT\CatatanPenjualan\app\src\main\AndroidManifest.xml:41:19-62
+51
+52        <provider
+52-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\INDRIAWAN\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+53            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\INDRIAWAN\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+54            android:authorities="id.rdev.catatanpenjualan.lifecycle-process"
+54-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\INDRIAWAN\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+55            android:exported="false"
+55-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\INDRIAWAN\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+56            android:multiprocess="true" />
+56-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\INDRIAWAN\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+57    </application>
+58
+59</manifest>
